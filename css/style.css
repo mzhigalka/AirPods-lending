@@ -47,6 +47,11 @@ body{
   position: relative;
 }
 
+.main--title{
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
 .header__top {
   display: flex;
   align-items: center;
@@ -58,7 +63,6 @@ body{
   display: flex;
   align-items: center;
   gap: 0 40px;
-  
 }
 
 .menu__list-item:hover {
@@ -152,4 +156,38 @@ body{
   border-radius: 20px;
   padding: 50px 55px;
 }
+
+.composition {
+  margin-bottom: 180px;
+}
+
+.composition__title {
+  text-align: center;
+}
+
+.composition__text {
+  text-align: center;
+  max-width: 655px;
+  margin: 0 auto 40px;
+}
+
+.composition__inner {
+  max-width: 625px;
+  margin: 0 auto;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.composition__inner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* .composition__inner-text p{
+  width: 230px;
+} */
+
 
