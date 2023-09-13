@@ -98,7 +98,7 @@ body{
 }
 .title--m{
   display: inline-block;
-  transform: translate(-56px, 290px);  
+  transform: translate(-56px, 290px);
 }
 .title--ax{
   position: relative;
@@ -123,3 +123,33 @@ body{
   background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
   z-index: -2;
 }
+
+.choose__color {
+  padding: 45px 0 180px;
+  text-align: center;
+}
+
+.choose__color-title {
+  font-size: 36px;
+  min-width: 555px;
+  margin: 0 auto 20px;
+}
+
+.choose__color-text {
+  min-width: 555px;
+  margin: 0 auto 80px;
+}
+
+.choose__color-list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose__color-btn {
+  border: 1px solid #777;
+  border-radius: 20px;
+  padding: 50px 55px;
+}
+
