@@ -272,6 +272,28 @@ body{
 
 
 .footer{
-  padding: 250px 0 40px;
+  padding: 300px 0 40px;
   background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
 }
+
+.footer__text {
+  padding: 20px 0;
+}
+
+.logo {
+}
+
+.footer__list {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__item {
+}
+
